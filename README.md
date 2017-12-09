@@ -1,4 +1,4 @@
-![OctoCore Logo](https://lh5.googleusercontent.com/hQu8IGVU5nrhfyRpEqAGLySQBUlMV-Zds91I9Mq_8Lxb-xTqWiDlZjNkRAWHzG8lcuXSjw12O1KmnQ=w2559-h1018)
+![OctoCore Logo](https://i.imgur.com/kt0QmIo.png)
 
 ## **About** 
 OctoCore is a C# library intended for Twitch and Youtube streamers. It allows them to create advanced apps based on six well-known social networking sites wrapped in one big THING. Those APIs are:
