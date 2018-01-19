@@ -3,7 +3,6 @@
 ## **About** 
 OctoCore is a C# library intended for Twitch streamers. It allows them to create advanced apps based on six well-known social networking sites wrapped in one big THING. Those APIs are:
 * Twitch
-* YouTube
 * Twitter
 * Facebook
 * Discord
