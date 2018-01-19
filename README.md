@@ -1,7 +1,7 @@
 ![OctoCore Logo](https://i.imgur.com/kt0QmIo.png)
 
 ## **About** 
-OctoCore is a C# library intended for Twitch and Youtube streamers. It allows them to create advanced apps based on six well-known social networking sites wrapped in one big THING. Those APIs are:
+OctoCore is a C# library intended for Twitch streamers. It allows them to create advanced apps based on six well-known social networking sites wrapped in one big THING. Those APIs are:
 * Twitch
 * YouTube
 * Twitter
@@ -12,7 +12,6 @@ OctoCore is a C# library intended for Twitch and Youtube streamers. It allows th
  
  
 ## **Getting Started**
-#### For Twitch API:
 1. Add reference to OctoCore.dll and Newtonsoft.Json.dll.
 
 2. Add using statement.
@@ -20,7 +19,8 @@ OctoCore is a C# library intended for Twitch and Youtube streamers. It allows th
 using OctoCore;
 ```
 
-3. Initialize Twitch.Credentials and Twitch.Client:
+#### For Twitch API:
+1. Initialize Twitch.Credentials and Twitch.Client:
 ```csharp
 Credentials apiCredentials = new Credentials();
 apiCredentials.ApplicationID = "your_application_ID_here";
@@ -30,11 +30,9 @@ apiCredentials.RedirectURI = "your_application_redirect_url_here"; //currently a
 Client twitchClient = new Client(apiCredentials);
 ```
 
-4. When initialized, twitchClient will attempt to open an authorization link in a default browser.
+2. When initialized, twitchClient will attempt to open an authorization link in a default browser.
 	* If user clicks Agree, library will return success page.
 	* If user clicks Cancel, library will return failure page and close it's local web server.
-
-#### For YouTube API:
 
 #### For Twitter API:
 
@@ -52,12 +50,14 @@ Client twitchClient = new Client(apiCredentials);
 * get newest follows, subs, hosts
 * read user data
 
-#### YouTube:
-
 #### Twitter:
+* send new tweets
+* search for tweets
 
 #### Facebook:
 
 #### Discord:
 
 #### PayPal:
+* send money to other people
+* check your account bilance
